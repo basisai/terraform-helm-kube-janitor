@@ -1,0 +1,16 @@
+schedule: "${schedule}"
+
+janitor:
+  image: ${image}:${image_tag}
+  resources: ${resources}
+  dryRun: ${dry_run}
+
+rules: ${rules}
+
+serviceAccount: "${service_account}"
+
+nodeSelector: ${node_selector}
+
+tolerations: ${tolerations}
+
+affinity: ${affinity}
